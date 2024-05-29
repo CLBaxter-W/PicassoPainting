@@ -11,6 +11,7 @@
   text-align: center;
   border-color: lemonchiffon;
   border-style: double;
+  margin: auto;
 }
 
 .h1Spec {
@@ -19,8 +20,9 @@
 }
 
 .h3Spec {
-  width: 80;
+  width: 80%;
   border-radius: 15%;
+  padding: 5px 5px 5px 5px;
 }
 
 .headerSpec {
@@ -52,8 +54,8 @@ a:hover {
   border-color: rgb(110, 51, 22);
   border-radius: 10%;
 
-  max-width: 20%;
-  height: auto;
+  max-width: 100%;
+  height: 20vh;
 }
 
 .imgContainer {
@@ -67,10 +69,21 @@ a:hover {
   flex-wrap: nowrap;
   align-items: center;
   background-color: rgb(15, 74, 93);
+  margin-left: 10px;
+}
+
+.backgroundDiv {
+  margin: auto;
+  width: 95%;
+  height: 50vh;
+  position: absolute;
+  background-color: black;
+  z-index: -1;
 }
 
 .formStyle {
   text-align: center;
+  margin: 10px 10px 10px 10px;
 }
 
 @media only screen and (max-width: 480px) {
