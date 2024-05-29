@@ -1,0 +1,116 @@
+.bodyStyle {
+  background-color: lightblue;
+  margin: 20px 20px 20px 20px;
+  padding: 5px;
+  color: blue;
+}
+
+/* Header Specification */
+.hSpec {
+  background-color: lightcyan;
+  text-align: center;
+  border-color: lemonchiffon;
+  border-style: double;
+}
+
+.h1Spec {
+  width: 90%;
+  border-radius: 25%;
+}
+
+.h3Spec {
+  width: 80;
+  border-radius: 15%;
+}
+
+.headerSpec {
+  font-size: x-large;
+  margin: auto;
+  width: 80vw;
+  padding: 5vw;
+}
+
+/* specification for links */
+.linkSpec {
+  font-size: x-large;
+  color: blue;
+  width: 60vw;
+  padding: 5vw;
+  position: absolute;
+  top: 30vw;
+  left: 15vw;
+}
+
+a:hover {
+  background-color: beige;
+}
+
+/* Artwork display specifications */
+.imgStyle {
+  border-style: ridge;
+  border-width: 10px;
+  border-color: rgb(110, 51, 22);
+  border-radius: 10%;
+
+  max-width: 20%;
+  height: auto;
+}
+
+.imgContainer {
+  margin: 1vw 1vw 1vw 1vw;
+}
+/* Specifications for the flex container and form */
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: rgb(15, 74, 93);
+}
+
+.formStyle {
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .hSpec {
+    background-color: lightgray;
+  }
+
+  .headerSpec {
+    font-size: medium;
+  }
+
+  .linkSpec {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .hSpec {
+    background-color: rgb(187, 214, 214);
+  }
+
+  .headerSpec {
+    font-size: large;
+  }
+
+  .linkSpec {
+    font-size: medium;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .hSpec {
+    background-color: lightCyan;
+  }
+
+  .headerSpec {
+    font-size: x-large;
+  }
+
+  .linkSpec {
+    font-size: x-large;
+  }
+}

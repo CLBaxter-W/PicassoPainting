@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picasso Digital Gallery</title>
+
+    <!-- link in the external style sheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- define the script to create the string to display -->
+    <script src="./code.js"></script>
+  </head>
+  <body class="bodyStyle">
+    <div>
+      <h1 class="hSpec h1Spec">Picasso's Digital Gallery</h1>
+    </div>
+
+    <!-- create the flex container for the images and form -->
+    <div class="flexContainer">
+      <div class="imgContainer">
+        <img
+          class="imgStyle"
+          src="./photo_repository/IMG_ModusOperandi.jpeg"
+          alt="Digital Art for Sale"
+          z-index:
+          1
+        />
+      </div>
+      <div class="imgContainer">
+        <img
+          class="imgStyle"
+          src="./photo_repository/IMG_ChihuahuaViking.JPG"
+          alt="Digital Art for Sale"
+        />
+      </div>
+      <div class="imgContainer">
+        <img
+          class="imgStyle"
+          src="./photo_repository/IMG_GlitterGlue.JPG"
+          alt="Digital Art for Sale"
+        />
+      </div>
+      <div class="imgContainer">
+        <img
+          class="imgStyle"
+          src="./photo_repository/IMG_Voodoo.JPG"
+          alt="Digital Art for Sale"
+        />
+      </div>
+      <div class="imgContainer">
+        <img
+          class="imgStyle"
+          src="./photo_repository/IMG_WhatYouWillBe.jpeg"
+          alt="Digital Art for Sale"
+        />
+      </div>
+
+      <!-- Create the form to request the email gathering opportunity -->
+    </div>
+    <div>
+      <form class="formStyle" action="./emailAction.html">
+        <h3 class="hSpec h3Spec">
+          If you are interested in this lovely piece, please input your email
+          below:<br />
+        </h3>
+        <input type="email" />
+        <input type="submit" value="Send Email Request" />
+      </form>
+    </div>
+  </body>
+</html>
